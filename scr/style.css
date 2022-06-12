@@ -1,0 +1,27 @@
+:root {
+  --headings-color: #d65a31;
+  --main-text-color: #393e46;
+}
+
+body {
+  background-color: #f0ece2;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: var(--main-text-color);
+  text-align: center;
+}
+nav {
+  margin-bottom: 30px;
+}
+h1 {
+  color: var(--headings-color);
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 45px;
+  color: var(--main-text-color);
+}
+.email-us {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
